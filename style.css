@@ -1,0 +1,1008 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fullheader{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: -2px 0px 32px rgba(158, 158, 158, 0.4);
+}
+
+.header{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.headerleftside{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headernavigation{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headernavigationul{
+    display: flex;
+    align-items: center;
+}
+
+.headernavigationul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(45, 45, 45);
+}
+
+.headernavigationul li:hover{
+    color: #078586;
+}
+
+.headerrightside{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+.headerright1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.headerright1::after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgb(45, 45, 45, 0.3);
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+.headerright1 .material-symbols-outlined{
+    color: rgb(45, 45, 45);
+
+}
+
+.headerright2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(45, 45, 45);
+}
+
+/* Header Section (Navigation) End */
+
+/* Slider Start */
+
+.sliderbackground{
+    width: 100%;
+    height: 900px;
+    background: url(./Images/slider-8-2.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderleftcontent{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sliderleftcontent h3{
+    width: 185px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #078586;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.sliderleftcontent h1{
+    width: 100%;
+    height: 110px;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(45, 45, 45);
+    margin-bottom: 20px;
+}
+
+.sliderleftcontent p{
+    width: 70%;
+    height: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(45, 45, 45, 0.6);
+    margin-bottom: 35px;
+}
+
+.slc-bp{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.slc-bp a{
+    color: white;
+    padding: 19px 30px 19px 30px;
+    font-size: 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #078586;
+    transition: 500ms;
+    border: 1px solid #078586;
+}
+
+.slc-bp a:hover{
+    color: #078586;
+    padding: 19px 30px 19px 30px;
+    font-size: 20px;
+    border: 1px solid #078586;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+
+}
+
+.slc-bp .material-symbols-outlined{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.slc-bp h2{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.sliderrightcontent{
+    width: 600px;
+    height: 100%;
+}
+
+/* Slider End */
+
+/* Logo Slide Start */
+
+.logoslidemain{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-bottom: 1px solid rgb(45, 45, 45, 0.3);
+}
+
+.logoslideul{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoslideul li{
+    list-style: none;
+}
+
+/* Logo Slide End */
+
+/* Three Products Design Start */
+
+.threepdmain{
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;   
+}
+
+.tpd-1{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    margin-right: 20px; 
+    transition: 600ms;
+}
+
+.tpd-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;   
+}
+
+.tpd-1 h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(45, 45, 45);
+    position: absolute;
+    left: 20px;
+    bottom: 90px;
+}
+
+.tpd-1 a{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #078586;
+    transition: 500ms;
+    border: 1px solid #078586;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.tpd-1 a:hover{
+    color: #078586;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border: 1px solid #078586;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.tpd-1:hover{
+    opacity: 0.6;
+    transform: translateY(-12px);
+}
+
+.tpd-2{
+    width: 600px;
+    height: 500px;
+    margin-left: 20px; 
+}
+
+.tpdright-1{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 20px;
+    position: relative;
+    transition: 600ms;
+}
+
+.tpdright-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.tpdright-1 h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(45, 45, 45);
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+
+.tpdright-1:hover{
+    opacity: 0.6;
+    transform: translateY(-12px);
+}
+
+.tpdright-2{
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+    position: relative;
+    transition: 600ms;
+}
+
+.tpdright-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.tpdright-2 h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(45, 45, 45);
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.tpdright-2:hover{
+    opacity: 0.6;
+    transform: translateY(-12px);
+}
+
+
+/* Three Product Design End */
+
+.iconspecmain{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(45, 45, 45, 0.3);
+    border-bottom: 1px solid rgb(45, 45, 45, 0.3);
+}
+
+.iconspec-1{
+    width: 300px;
+    height: 100%;
+    display: flex;
+}
+
+.iconspec-1icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconspec-1icon .material-symbols-outlined{
+    color: #078586;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.iconspec-1text{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.iconspec-1text h3{
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(45, 45, 45);
+    margin-bottom: 15px;
+}
+
+.iconspec-1text p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(45, 45, 45, 0.6);
+}
+
+
+.iconspec-2{
+    width: 300px;
+    height: 100%;
+    display: flex;
+}
+
+.iconspec-2icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconspec-2icon .material-symbols-outlined{
+    color: #078586;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.iconspec-3{
+    width: 300px;
+    height: 100%;
+    display: flex;
+}
+
+.iconspec-3icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconspec-3icon .material-symbols-outlined{
+    color: #078586;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.iconspec-4{
+    width: 300px;
+    height: 100%;
+    display: flex;
+}
+
+.iconspec-4icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconspec-4icon .material-symbols-outlined{
+    color: #078586;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* icon specification end */
+
+/* Products Start */
+
+
+.bestsellingheading{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.bestsellingheading h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #078586;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bestsellingheading h1{
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.productmainbox{
+    width: 1200px;
+    height: 360px;
+    margin:  30px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.productbox-1{
+    width: 25%;
+    height: 100%;
+    border: 1px solid rgb(45, 45, 45, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.pb-1sale{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #078586;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-1innerbox{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.pb-1innerbox h1{
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.pb-1innerprice{
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 20px;
+}
+
+.pb-1innerprice h3{
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(45, 45, 45, 0.6);
+}
+
+.pb-1innerprice h2{
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #078586;
+}
+
+.productbox-1 a{
+    position: absolute;
+    left: 70px;
+    top: 170px;
+    color: white;
+    padding: 15px 28px 15px 28px;
+    font-size: 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #078586;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: 500ms;
+    border: 1px solid #078586;
+}
+
+.productbox-1 a:hover{
+    border-radius: 0px 10px 0px 10px;
+    background-color: #212121;
+    border-color: #212121;
+    transition: 500ms;
+}
+
+.productbox-1:hover a{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* Products End */
+
+/* Hurry up Slide Start */
+
+.hurryupslidebackground{
+    width: 100%;
+    height: 650px;
+    background: url(./Images/blue-abstract-gradient-wave.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hslideleftcontent{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hslideleftcontent h3{
+    width: 110px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #078586;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.hslideleftcontent h1{
+    width: 100%;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: rgb(45, 45, 45);
+}
+
+.hslideleftcontent p{
+    width: 70%;
+    height: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(45, 45, 45);
+    margin-bottom: 35px;
+    word-spacing: 50px;
+}
+
+.hslc-bp{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.hslc-bp a{
+    color: white;
+    padding: 19px 30px 19px 30px;
+    font-size: 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #078586;
+    transition: 500ms;
+    border: 1px solid #078586;
+}
+
+.hslc-bp a:hover{
+    color: #078586;
+    padding: 19px 30px 19px 30px;
+    font-size: 20px;
+    border: 1px solid #078586;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+
+}
+
+.hslc-bp .material-symbols-outlined{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.hslc-bp h2{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.hsliderightcontent{
+    width: 600px;
+    height: 100%;
+}
+
+/* hurry up slide end */
+
+/* Hurry up news section start */
+
+.newssectionmain{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.newssectionmain h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #078586;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.newssectionmain h1{
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsmainbox{
+    width: 1200px;
+    height: 360px;
+    margin:  30px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.newsbox-1{
+    width: 32%;
+    height: 100%;
+    border: 1px solid rgb(45, 45, 45, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    transform: translateY(0);
+    transition: 700ms;
+}
+
+.newsbox-1 img{
+    opacity: 1;
+    transition: 500ms;
+}
+
+
+.newsbox-1 h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    display: flex;
+    line-height: 25px;
+    justify-content: center;
+}
+
+.newsbox-1innerbox{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.newsbox-1innerbox a{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 20px;
+    color: white;
+    margin-right: 20px;
+    background-color: #078586;
+}
+
+.newsbox-1innerbox .material-symbols-outlined{
+    font-size: 20px;
+    color: #078586;
+    margin-right: 10px;
+}
+
+.newsbox-1innerbox  p{
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(45, 45, 45, 1);
+}
+
+.newsbox-1:hover img{
+    opacity: 0.5;
+}
+
+.newsbox-1:hover{
+    transform: translateY(-10px);
+}
+/* From our news section end */
+
+/* Signup section start */
+
+.signupmainsection{
+    width: 100%;
+    margin: 100px auto;
+    background-color: #078586;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signupupdate{
+    margin: auto;
+   font-size: 22px;
+   color: #078586;
+   background-color: white;
+   padding: 12px;
+}
+
+.signupmainsection h1{
+    margin: 40px auto;
+    font-weight: 500;
+    font-size:50px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.signupmainsection p{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    margin: auto;
+}
+
+.signupmainbox{
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.signupform{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(45, 45, 45, 0.7);
+    background: transparent;
+}
+
+
+::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.signupmainbox a{
+    width: 10%;
+    height: 40px;
+    background-color: white;
+    color: #078586;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* signup section end */
+
+/* Footer Start */
+
+.footercontainer{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footerbox-1{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerbox-1 p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(45, 45, 45, 0.7);
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.fb-1innerbox{
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.fb-1innerbox h3{
+    font-size: 16px;
+    color: #078586;
+    font-weight: 500;
+    position: absolute;
+    left: 85px;
+    top: 20px;
+}
+
+.fb-1innerbox h2{
+    font-size: 18px;
+    color: rgb(45, 45, 45, 0.7);
+    font-weight: 500;
+    position: absolute;
+    left: 85px;
+    top: 40px;
+}
+
+.footerbox-2{
+    width: 20%;
+    height: 350px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerbox-2 h3{
+    font-size: 28px;
+    font-weight: 400;
+    position: relative;
+}
+
+.footerbox-2 h3::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 75px;
+    border: 2px solid #078586;
+}
+
+.categorylist{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.categorylist li{
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+    line-height: 40px;
+    color: rgb(45, 45, 45, 0.7);;
+}
+
+.footerbox-2 h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.footerbox-2 p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(45, 45, 45, 0.7);
+    line-height: 22px;
+}
+
+.footerbottom{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(45, 45, 45, 0.2);
+}
+
+.footerbottombox{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.allrightreserved{
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(45, 45, 45, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+.footersocialmedia{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+}
+
+.footersocialmedia i{
+    color: #078586;
+    font-size: 25px;
+    transition: 100ms;
+}
+
+.footersocialmedia i:hover{
+    color: #212121;
+}
